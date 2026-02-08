@@ -142,10 +142,10 @@ Composite Risk Score =
 pip install -r requirements.txt
 uvicorn app.main:app --reload
 ```
-Open API docs at:
-👉 http://127.0.0.1:8000/docs
 
-streamlit run app.py
+streamlit run app.py:
+ https://stockpricepred-xns4xhgfsjgjbj4ykpfdfe.streamlit.app
+
 
 🟢 Live Demo
 
