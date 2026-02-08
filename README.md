@@ -182,6 +182,5 @@ This project is for educational and analytical purposes only.<br>
 It does not constitute financial or investment advice.
 <br><br>
 👤 Author
-Om Timbadiya <br>
-🎓 3rd Year Engineering Student<br>
+Saurav Kumar
 🤖 Machine Learning • Forecasting • Applied AI
