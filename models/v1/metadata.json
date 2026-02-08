@@ -1,0 +1,22 @@
+{
+    "model_type": "XGBoost Regressor",
+    "target": "vol_5d",
+    "features": [
+        "ret_lag_1",
+        "ret_lag_5",
+        "ret_lag_10",
+        "roll_vol_5",
+        "roll_vol_10",
+        "roll_vol_20",
+        "roll_mean_5",
+        "roll_mean_10",
+        "log_volume",
+        "roll_vol_volume_10"
+    ],
+    "trained_on": "2026-02-07 21:42:00",
+    "baseline_comparison": {
+        "naive_mae": 0.003618,
+        "ewma_mae": 0.003349,
+        "xgb_test_mae": 0.003195
+    }
+}

@@ -1,0 +1,11 @@
+streamlit==1.32.2
+altair==4.2.2
+fastapi
+uvicorn
+numpy
+pandas
+scikit-learn
+xgboost
+joblib
+yfinance
+requests
