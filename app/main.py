@@ -26,17 +26,24 @@ model_10d = joblib.load(os.path.join(BASE_MODEL_PATH, "xgb_vol_10d.pkl"))
 # ===============================
 class FeatureRequest(BaseModel):
     features: list[float]
+# ===============================
+# Home Page Loading
+# ===============================
+@app.get("/")
+def root():
+    return {"message": "Go to /docs for API UI"}
 
 # ===============================
 # HEALTH CHECK
 # ===============================
-@app.get("/")
+@app.get("/health")
 def health_check():
     return {
         "status": "ok",
         "model_version": "v1",
         "models_loaded": ["vol_5d", "vol_10d"]
     }
+
 
 # ===============================
 # PREDICTION ENDPOINT
